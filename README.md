@@ -30,15 +30,15 @@ main_simulation_results.csv
 
 Scripts/Source functions:
 
-main_functions_mosaic_space.jl
-main_functions_mosaic_networks.jl
-aux_functions.jl
-main_simulations_mosaic.jl
+main_functions_mosaic_space.jl\
+main_functions_mosaic_networks.jl\
+aux_functions.jl\
+main_simulations_mosaic.jl\
 main_simulations_networks.jl
 
 DATA-SPECIFIC INFORMATION:
 
-main_simulation_results.csv: full dataset containing the results of the numerical simulations used for the analyses in the main text. The variables in the dataset correspond to: 
+main_simulation_results.csv: full dataset containing the results of the numerical simulations used for the analyses in the main text.\The variables in the dataset correspond to: 
 
 (1) simulation - ID of the simulation.\
 (2) site - ID of the patch.\
@@ -60,10 +60,9 @@ main_simulation_results.csv: full dataset containing the results of the numerica
 (18) gvar - Parameter that controls the additive genetic variance.\
 (19) rho - Parameter that controls the slope of species adaptive landscape.\
 (20) prop_hot - Proportion of hotspots in the metacommunity.\
-(21) climchange - Amount of directional climate change in the simulation.\
+(21) climchange - Amount of directional climate change in the simulation.
 
-main_functions.jl/aux_functions.jl: Julia functions used to run the model numerical simulations.\
-
+main_functions.jl and aux_functions.jl: Julia functions used to run the model numerical simulations.\
 main_simulations_mosaic.jl: script to reproduce the numerical simulations of the model used in the main text (figure 2 to figure 4c).\
 main_simulations_network.jl: script to reproduce the numerical simulations and results of figure 4d in the main text.\
 
