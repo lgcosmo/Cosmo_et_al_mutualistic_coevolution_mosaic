@@ -40,32 +40,32 @@ DATA-SPECIFIC INFORMATION:
 
 main_simulation_results.csv: full dataset containing the results of the numerical simulations used for the analyses in the main text. The variables in the dataset correspond to: 
 
-(1) simulation - ID of the simulation.
-(2) site - ID of the patch.
-(3) mi_class - Classification of the patch as a hotspot (h) or coldspots (c).
-(4) change_type - Type of climate change when present.
-(5) rich_plants - Average richness of plants within the patch (over the last 100 time steps).
-(6) rich_animals - Average richness of animals within the patch (over the last 100 time steps).
-(7) ext_ratio - Average rate of extinction within the patch (over the last 100 time steps).
-(8) mig_ratio - Average rate of colonization and dispersal within the patch (over the last 100 time steps).
-(9) indegree - Average number of colonizing populations within the patch (over the last 100 time steps).
-(10) outegree - Average number of outgoing populations from the patch that succesfull colonized/dispersed ti adjacent patches (over the last 100 time steps).
-(11) total_degree - The maximum theoretical indegree and outdegree of the patch (8 for all paches because of Moore neighborhood).
-(12) mi - Specific m value for the patch (strength of mutualisms as selective pressures).
-(13) n_sp - Number of species in the beginning of the simulation.
-(14) n_a - Number of animal species in the beginning of the simulation.
-(15) n_p - Number of plant species in the beginning of the simulation.
-(16) flow - Fraction of gene flow among populations.
-(17) alpha - Parameter that controls the shape of the trait matching function.
-(18) gvar - Parameter that controls the additive genetic variance.
-(19) rho - Parameter that controls the slope of species adaptive landscape.
-(20) prop_hot - Proportion of hotspots in the metacommunity.
-(21) climchange - Amount of directional climate change in the simulation.
+(1) simulation - ID of the simulation.\
+(2) site - ID of the patch.\
+(3) mi_class - Classification of the patch as a hotspot (h) or coldspots (c).\
+(4) change_type - Type of climate change when present.\
+(5) rich_plants - Average richness of plants within the patch (over the last 100 time steps).\
+(6) rich_animals - Average richness of animals within the patch (over the last 100 time steps).\
+(7) ext_ratio - Average rate of extinction within the patch (over the last 100 time steps).\
+(8) mig_ratio - Average rate of colonization and dispersal within the patch (over the last 100 time steps).\
+(9) indegree - Average number of colonizing populations within the patch (over the last 100 time steps).\
+(10) outegree - Average number of outgoing populations from the patch that succesfull colonized/dispersed ti adjacent patches (over the last 100 time steps).\
+(11) total_degree - The maximum theoretical indegree and outdegree of the patch (8 for all paches because of Moore neighborhood).\
+(12) mi - Specific m value for the patch (strength of mutualisms as selective pressures).\
+(13) n_sp - Number of species in the beginning of the simulation.\
+(14) n_a - Number of animal species in the beginning of the simulation.\
+(15) n_p - Number of plant species in the beginning of the simulation.\
+(16) flow - Fraction of gene flow among populations.\
+(17) alpha - Parameter that controls the shape of the trait matching function.\
+(18) gvar - Parameter that controls the additive genetic variance.\
+(19) rho - Parameter that controls the slope of species adaptive landscape.\
+(20) prop_hot - Proportion of hotspots in the metacommunity.\
+(21) climchange - Amount of directional climate change in the simulation.\
 
-main_functions.jl/aux_functions.jl: Julia functions used to run the model numerical simulations.
+main_functions.jl/aux_functions.jl: Julia functions used to run the model numerical simulations.\
 
-main_simulations_mosaic.jl: script to reproduce the numerical simulations of the model used in the main text (figure 2 to figure 4c).
-main_simulations_network.jl: script to reproduce the numerical simulations and results of figure 4d in the main text.
+main_simulations_mosaic.jl: script to reproduce the numerical simulations of the model used in the main text (figure 2 to figure 4c).\
+main_simulations_network.jl: script to reproduce the numerical simulations and results of figure 4d in the main text.\
 
 USAGE INSTRUCTIONS:
 
